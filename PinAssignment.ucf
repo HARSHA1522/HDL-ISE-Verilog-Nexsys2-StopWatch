@@ -1,0 +1,32 @@
+#NET "bcd<0>" LOC = "G18";
+#NET "bcd<1>" LOC = "H18";
+#NET "bcd<2>" LOC = "K18";
+#NET "bcd<3>" LOC = "K17";
+#
+#NET "seg<0>" LOC = "L18";
+#NET "seg<1>" LOC = "F18";
+#NET "seg<2>" LOC = "D17";
+#NET "seg<3>" LOC = "D16";
+#NET "seg<4>" LOC = "G14";
+#NET "seg<5>" LOC = "J17";
+#NET "seg<6>" LOC = "H14";
+
+NET "stop" LOC = "H13";
+NET "start" LOC = "B18";
+NET "reset" LOC = "D18";
+
+NET "a" LOC = "L18" ;
+NET "b" LOC = "F18" ;
+NET "c" LOC = "D17" ;
+NET "d" LOC = "D16" ;
+NET "e" LOC = "G14" ;
+NET "f" LOC = "J17" ;
+NET "g" LOC = "H14" ;
+NET "dp" LOC = "C17" ;
+
+NET "an<3>" LOC = "F15";
+NET "an<2>" LOC = "C18";
+NET "an<1>" LOC = "H17";
+NET "an<0>" LOC = "F17";
+
+NET "clock" LOC = "B8";

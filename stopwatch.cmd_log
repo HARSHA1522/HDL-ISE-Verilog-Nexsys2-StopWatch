@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "C:/Users/Temp/Desktop/SW/StopWatch_120731K/stopwatch.xst" -ofn "C:/Users/Temp/Desktop/SW/StopWatch_120731K/stopwatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s500e-fg320-4 stopwatch.ngc stopwatch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o stopwatch_map.ncd stopwatch.ngd stopwatch.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_map.ncd stopwatch.ncd stopwatch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch.twx stopwatch.ncd -o stopwatch.twr stopwatch.pcf -ucf PinAssignment.ucf 
+bitgen -intstyle ise -f stopwatch.ut stopwatch.ncd 
+xst -intstyle ise -ifn "C:/Users/Temp/Desktop/SW/StopWatch_120731K/stopwatch.xst" -ofn "C:/Users/Temp/Desktop/SW/StopWatch_120731K/stopwatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s500e-fg320-4 stopwatch.ngc stopwatch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o stopwatch_map.ncd stopwatch.ngd stopwatch.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_map.ncd stopwatch.ncd stopwatch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch.twx stopwatch.ncd -o stopwatch.twr stopwatch.pcf -ucf PinAssignment.ucf 
+bitgen -intstyle ise -f stopwatch.ut stopwatch.ncd 
+xst -intstyle ise -ifn "C:/Users/Temp/Desktop/SW/StopWatch_120731K/stopwatch.xst" -ofn "C:/Users/Temp/Desktop/SW/StopWatch_120731K/stopwatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s500e-fg320-4 stopwatch.ngc stopwatch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o stopwatch_map.ncd stopwatch.ngd stopwatch.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_map.ncd stopwatch.ncd stopwatch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch.twx stopwatch.ncd -o stopwatch.twr stopwatch.pcf -ucf PinAssignment.ucf 
+bitgen -intstyle ise -f stopwatch.ut stopwatch.ncd 
+xst -intstyle ise -ifn "C:/Users/Temp/Desktop/SW/StopWatch_120731K/stopwatch.xst" -ofn "C:/Users/Temp/Desktop/SW/StopWatch_120731K/stopwatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s500e-fg320-4 stopwatch.ngc stopwatch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o stopwatch_map.ncd stopwatch.ngd stopwatch.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_map.ncd stopwatch.ncd stopwatch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch.twx stopwatch.ncd -o stopwatch.twr stopwatch.pcf -ucf PinAssignment.ucf 
+bitgen -intstyle ise -f stopwatch.ut stopwatch.ncd 
+xst -intstyle ise -ifn "C:/Users/Temp/Desktop/SW/StopWatch_120731K/stopwatch.xst" -ofn "C:/Users/Temp/Desktop/SW/StopWatch_120731K/stopwatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s500e-fg320-4 stopwatch.ngc stopwatch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o stopwatch_map.ncd stopwatch.ngd stopwatch.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_map.ncd stopwatch.ncd stopwatch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch.twx stopwatch.ncd -o stopwatch.twr stopwatch.pcf -ucf PinAssignment.ucf 
+bitgen -intstyle ise -f stopwatch.ut stopwatch.ncd 
+xst -intstyle ise -ifn "C:/Users/Temp/Desktop/SW/StopWatch_120731K/stopwatch.xst" -ofn "C:/Users/Temp/Desktop/SW/StopWatch_120731K/stopwatch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s500e-fg320-4 stopwatch.ngc stopwatch.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o stopwatch_map.ncd stopwatch.ngd stopwatch.pcf 
+par -w -intstyle ise -ol high -t 1 stopwatch_map.ncd stopwatch.ncd stopwatch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stopwatch.twx stopwatch.ncd -o stopwatch.twr stopwatch.pcf -ucf PinAssignment.ucf 
+bitgen -intstyle ise -f stopwatch.ut stopwatch.ncd 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Temp\Desktop\SW\StopWatch_120731K\stopwatch.ncd
+OUTFILE=C:\Users\Temp\Desktop\SW\StopWatch_120731K\stopwatch.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\Temp\Desktop\SW\StopWatch_120731K
+LICENSE=WebPack
+USER_INFO=__0_0_0
