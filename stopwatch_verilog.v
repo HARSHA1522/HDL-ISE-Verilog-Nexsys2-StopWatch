@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company:          		 
-// Engineer:    			
+// Company:          		Department of Computer Science and Engineering, University of Maratuwa, Sri Lanka 
+// Engineer:    			Damith Wijewardana - damith.w.12@cse.mrt.ac.lk
 //
 // Create Date:				17:51:21 10/03/2016
 // Design Name: 			Verilog_7Segment_StopWatch
@@ -9,7 +9,7 @@
 // Project Name:			BCD_to_7Seg
 // Target Devices:			Nexsys2
 // Tool versions:			
-// Description:
+// Description:				Stopwatch with millisecond accuracy  
 //
 // Dependencies:
 //
@@ -17,8 +17,11 @@
 // Revision 0.01 - File Created
 // Additional Comments:
 //
-//////////////////////////////////////////////////////////////////////////////////
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 /*
+
 module BCD_to_7Seg(bcd,seg);
 
 	input [3:0]bcd;
@@ -43,9 +46,11 @@ module BCD_to_7Seg(bcd,seg);
 		end
   	 
 endmodule
+
 */
 
-///////////////////////////////////////////////////////////////////////////////////////
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 module stopwatch(
 	input clock,
@@ -225,10 +230,3 @@ module stopwatch(
 	assign dp = reg_dp;
  
 endmodule
-
-
-
-///////////////////////////////////////////////////////////////////////////
-
-
-
