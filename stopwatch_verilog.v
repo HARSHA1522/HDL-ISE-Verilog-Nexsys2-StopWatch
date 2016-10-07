@@ -5,8 +5,8 @@
 //
 // Create Date:				17:51:21 10/03/2016
 // Design Name: 			Verilog_7Segment_StopWatch
-// Module Name:				BCD_to_7Seg
-// Project Name:			BCD_to_7Seg
+// Module Name:				Verilog Stopwatch
+// Project Name:			Verilog Stopwatch
 // Target Devices:			Nexsys2
 // Tool versions:			
 // Description:				Stopwatch with millisecond accuracy  
