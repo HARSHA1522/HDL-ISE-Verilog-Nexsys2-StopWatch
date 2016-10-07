@@ -1,5 +1,6 @@
 # HDL-ISE-Verilog-Nexsys2-StopWatch
 Stopwatch with milliseconds accuracy using Verilog ( This code is implemented on Nexsys2 board )    
+Verilog code is lie in "stopwatch_verilog.v" file 
 
 This code base was developed using ISE Design suit for acadamic purposes. 
 
