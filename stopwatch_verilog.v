@@ -229,5 +229,6 @@ module stopwatch(
 	// Assigning value of the dot in 7_segement displays
 	assign dp = reg_dp;
  	//this code is forked by harsha1522
+	// editing is done
 	
 endmodule
