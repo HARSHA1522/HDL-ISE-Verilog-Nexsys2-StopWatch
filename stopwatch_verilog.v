@@ -228,5 +228,6 @@ module stopwatch(
 	assign {g, f, e, d, c, b, a} = sseg_temp;
 	// Assigning value of the dot in 7_segement displays
 	assign dp = reg_dp;
- 
+ 	//this code is forked by harsha1522
+	
 endmodule
